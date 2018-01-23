@@ -11,10 +11,6 @@ var words = [
 		"Jim Hopper",
 	];
 
-module.exports = function(word) {
-  return {
-    area: function() {
-      return width * width;
-    }
+module.exports = function word () {
+  console.log('Hello');
   };
-}

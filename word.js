@@ -10,7 +10,13 @@ var words = [
 		"Will Byers",
 		"Jim Hopper",
 	];
+	var remGuesses = 15;
+	var randomWord = words[Math.floor (Math.random () * words.length -1)];
+	var wrongLetters = [];
 
+// Choose random solution word
 module.exports = function word () {
-  console.log('Hello');
+		var randomWord = words[Math.floor (Math.random () * words.length)];
   };
+
+	console.log(randomWord);

@@ -4,6 +4,12 @@ var Word = require('./word.js');
 var Letter = require('./letter.js');
 var inquirer = require('inquirer');
 
+var lettersOfTheWord = [];
+var matchedLetters = [];
+var guessedLetters = [];
+var guessesLeft = 10;
+var totalGuesses = 0;
+
 // Initial inquirer prompt
 var questions = [
   {

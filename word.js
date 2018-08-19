@@ -1,5 +1,5 @@
 // Word constructor function
-var words = function() {
+var Word = function(letter1, letter2, letter3, ) {
 	this.firstWord = 'Hawkins';
 	this.secondWord = 'Indiana';
 	this.secondWord = 'Eleven';
@@ -10,16 +10,3 @@ var words = function() {
 	this.seventhWord = 'Will Byers';
 	this.eighthWord = 'Jim Hopper';
 	};
-
-// Choose random solution word
-module.exports = function word() {
-		var randomWord = words[Math.floor (Math.random () * words.length-1)];
-
-		function blanksFromAnswer(result) {
-			var result = "_";
-			for(i = 0; i < randomWord.length; i++) {
-				text += result;
-			}
-			console.log(result);
-		}
-  };
